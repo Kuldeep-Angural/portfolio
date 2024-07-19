@@ -3,6 +3,7 @@ import MariZameen from '../images/projectsImages/MeriZameen.png';
 import RockPaperScisior from '../images/projectsImages/RockPaperScisiorGame.png';
 import PushBiker from '../images/projectsImages/Screenshot 2023-05-15 011015.png';
 import Tesla from '../images/projectsImages/Tesla.png';
+import snapNab from '../images/snapNab.png'
 
 export const projects = [
   {
@@ -55,6 +56,15 @@ export const projects = [
         feature: 'Complete Clone of iqoo WebSite ',
         techStack: ['Html', 'Vanila-Css'],
         image: Iqoo,
+        link:'https://github.com/KuldeepKumarAngural/Tesla_And_Iqoo_Web_Site_Langing_Page_clone.git'
+      },
+
+      {
+        name: 'SnapNab',
+        feature: 'Complete Image Download App ',
+        techStack: ['Html', 'bootstrap' ,'react-js' , 'unsplash'],
+        image: snapNab,
+        webLink:'https://snapnab.vercel.app/',
         link:'https://github.com/KuldeepKumarAngural/Tesla_And_Iqoo_Web_Site_Langing_Page_clone.git'
       },
     ],
