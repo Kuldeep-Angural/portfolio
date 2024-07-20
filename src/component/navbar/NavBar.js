@@ -43,9 +43,17 @@ const NavBar = ({ chacked, onChange }) => {
 
                             </CustomLink>
 
-                            <CustomLink variant="outlined" color="inherit" icon={'Projects/Skills'} sx={{ backgroundColor: 'inherit' }} onClick={() => naviGate('/projects')}>
+                            <CustomLink variant="outlined" color="inherit" icon={'Projects'} sx={{ backgroundColor: 'inherit' }} onClick={() => naviGate('/projects')}>
 
                             </CustomLink>
+
+                            <CustomLink variant="outlined" color="inherit" icon={'Skills'} sx={{ backgroundColor: 'inherit' }} onClick={() => naviGate('/skills')}>
+
+                            </CustomLink>
+
+                            {/* <CustomLink variant="outlined" color="inherit" icon={'Blogs'} sx={{ backgroundColor: 'inherit' }} onClick={() => naviGate('/blogs')}>
+
+                            </CustomLink> */}
 
                             <CustomLink variant="outlined" color="inherit" icon={'Contact'} sx={{ backgroundColor: 'inherit' }} onClick={() => naviGate('/contact')}>
 

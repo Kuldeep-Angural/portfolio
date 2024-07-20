@@ -9,6 +9,8 @@ import Qualification from "../../pages/qualification/Qualification";
 import Projects from "../../pages/projects/Projects";
 import Contact from "../../pages/about/About";
 import { Journey } from "../../pages/experience/Journey";
+import Skills from "../../pages/skills/Skills";
+import Blogs from "../../pages/blogs/Blogs";
 
 export const Wrapper = (props) => {
 
@@ -16,6 +18,8 @@ export const Wrapper = (props) => {
         { name: '/', value: (index) => (<BasicInfo key={index}   />) },
         { name: '/Journey', value: (index) => (<Journey key={index}   />) },
         { name: '/projects', value: (index) => <Projects key={index}   /> },
+        { name: '/skills', value: (index) => <Skills key={index}   /> },
+        { name: '/blogs', value: (index) => (<Blogs key={index}   />) },
         { name: '/contact', value: (index) => (<Contact key={index}   />) },
     ];
 

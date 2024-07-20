@@ -58,7 +58,7 @@ export const skills = [
       },
       {
         name: 'Node Js',
-        image: 'https://nodejs.org/static/images/logo.svg',
+        image: 'https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg',
       },
       {
         name: 'Express Js',
