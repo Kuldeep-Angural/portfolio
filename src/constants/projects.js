@@ -5,6 +5,7 @@ import RockPaperScisior from '../images/projectsImages/RockPaperScisiorGame.png'
 import PushBiker from '../images/projectsImages/Screenshot 2023-05-15 011015.png';
 import Tesla from '../images/projectsImages/Tesla.png';
 import snapNab from '../images/snapNab.png'
+import victual from '../images/projectsImages/victual.png'
 
 export const projects = [
       {
@@ -20,7 +21,7 @@ export const projects = [
         name: 'The Victual',
         info: 'TheVictual is an innovative online grocery store designed to revolutionize the way consumers shop for their everyday essentials. Leveraging cutting-edge technology, "The Victual" offers a seamless and convenient shopping experience, allowing customers to browse and purchase a wide range of groceries from the comfort of their homes',
         techStack: ['react-js','Node-js','mongoDb','javaScript'],
-        image: 'https://as1.ftcdn.net/v2/jpg/04/34/72/82/1000_F_434728286_OWQQvAFoXZLdGHlObozsolNeuSxhpr84.jpg',
+        image: victual,
         link:''
 
       },
