@@ -39,7 +39,7 @@ const NavBar = ({ chacked, onChange }) => {
                     </Grid>
                     <Grid item md={12}>
                         <Box display={'flex'} justifyContent={'center'} mt={0} >
-                            <CustomLink variant="outlined" color="inherit" icon={'Journy'} onClick={() => naviGate('/Journey')} >
+                            <CustomLink variant="outlined" color="inherit" icon={'Journey'} onClick={() => naviGate('/Journey')} >
 
                             </CustomLink>
 

@@ -120,15 +120,15 @@ function Contact() {
                 <Typography align='center' fontWeight={550}> Contact-me</Typography>
                 <Grid container spacing={2}>
                     <Grid item md={6} sm={12} xs={12}>
-                        <TextField id="standard-basic" value={values?.name} name='name' onChange={handleChange} fullWidth label="name" variant="standard" />
+                        <TextField id="standard-basic" value={values?.name} name='name' onChange={handleChange} fullWidth label="Name" variant="standard" />
                     </Grid>
 
                     <Grid item md={6} sm={12} xs={12}>
-                        <TextField id="standard-basic" value={values?.email} name='email' onChange={handleChange} fullWidth label="email" variant="standard" />
+                        <TextField id="standard-basic" value={values?.email} name='email' onChange={handleChange} fullWidth label="Email" variant="standard" />
                     </Grid>
 
                     <Grid item md={12} sm={12} xs={12}>
-                        <TextField id="standard-basic" value={values?.message} name='message' onChange={handleChange} fullWidth multiline rows={4} label="message" variant="standard" />
+                        <TextField id="standard-basic" value={values?.message} name='message' onChange={handleChange} fullWidth multiline rows={4} label="Message" variant="standard" />
                         <span>{error.message}</span>
                     </Grid>
 
