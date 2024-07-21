@@ -22,7 +22,8 @@ export const projects = [
         info: 'TheVictual is an innovative online grocery store designed to revolutionize the way consumers shop for their everyday essentials. Leveraging cutting-edge technology, "The Victual" offers a seamless and convenient shopping experience, allowing customers to browse and purchase a wide range of groceries from the comfort of their homes',
         techStack: ['react-js','Node-js','mongoDb','javaScript'],
         image: victual,
-        link:''
+        link:'',
+        webLink:'https://victual.vercel.app/'
 
       },
 
