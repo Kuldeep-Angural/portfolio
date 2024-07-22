@@ -108,7 +108,7 @@ const timeLine = (pro , icon) => {
 export const CustomTimeline = () => {
   return (
     <Box>
-      <Typography align='center' fontSize={'30px'}>Experience</Typography>
+      <Typography align='center' fontSize={'30px'}>Experience -INSONIX</Typography>
       <Box>
         <ol style={timelineStyles}>
           {experience.map((item) => {
