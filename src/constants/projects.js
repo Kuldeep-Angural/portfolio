@@ -11,7 +11,7 @@ export const projects = [
       {
         name: 'MeriZameen',
         info: 'Merizameen is an innovative real estate web application designed to streamline the process of buying, selling, and renting properties. The platform aims to provide users with a seamless experience by integrating advanced search functionalities, detailed property listings, and interactive infos.',
-        techStack: ['react-js','Node-js','mongoDb','javaScript'],
+        techStack: ['React-js','Node-js','Express-js','MongoDb','Redux-Toolkit','Cron-Jobs','Node-Mailer','Pasport-js','JavaScript', 'Material-UI'],
         image: MariZameen,
         link:'https://github.com/KuldeepKumarAngural/MeriZameen_RealEstate_Mini_WebProject.git',
         webLink:'https://merizameen.vercel.app'
