@@ -29,7 +29,7 @@ export const projects = [
 
       {
         name: 'SalesPush',
-        info: 'TheVictual is an innovative online grocery store designed to revolutionize the way consumers shop for their everyday essentials. Leveraging cutting-edge technology, "The Victual" offers a seamless and convenient shopping experience, allowing customers to browse and purchase a wide range of groceries from the comfort of their homes',
+        info: '(In Progress) SalesPush  robust CRM (Customer Relationship Management) web application designed to streamline sales processes, manage customer interactions, and enhance business productivity',
         techStack: ['react-js','Node-js','mongoDb','javaScript' , 'agenda' , 'cronJobs'],
         image: 'https://as1.ftcdn.net/v2/jpg/04/34/72/82/1000_F_434728286_OWQQvAFoXZLdGHlObozsolNeuSxhpr84.jpg',
         link:''
