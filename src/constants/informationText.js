@@ -8,8 +8,8 @@ export const bio = ['I am a Multi-Talented,Organised, Self-driven  person  looki
 export const professionWords = ['Full Stack Developer', 'Software Developer', 'Web Developer', 'Programmer', 'Engineer', 'Gamer'];
 export const socialMediaHandle = [
   { name: 'Linkdin', image: linkdin, link: 'https://www.linkedin.com/in/kuldeep-kumar-485a13252/' },
-  { name: 'github', image: github, link: 'https://github.com/KuldeepKumarAngural' },
-  { name: 'Instagram', image: Instagram, link: 'https://www.instagram.com/itzz__navv?igsh=MWhsYjZoM28yYm1wOA==' },
+  { name: 'github', image: github, link: 'https://github.com/Kuldeep-Angural' },
+  { name: 'Instagram', image: Instagram, link: 'https://www.instagram.com/kuldeep__angural/' },
   { name: 'Facebook', image: Facebook, link: 'https://www.facebook.com/profile.php?id=100010206819115&mibextid=ZbWKwL' },
   { name: 'Snapchat', image: Snapchat, link: 'https://www.snapchat.com/add/navv_saab?share_id=dwzB-kiYAak&locale=en-GB' },
 ];
