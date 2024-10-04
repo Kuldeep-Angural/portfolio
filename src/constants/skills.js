@@ -74,6 +74,10 @@ export const skills = [
         name: 'Graph Ql',
         image: 'https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg',
       },
+       {
+        name: 'Rest API',
+        image: 'https://www.infowayltd.com/wp-content/uploads/2017/09/REST-API.png',
+      },
       {
         name: 'Python',
         image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
