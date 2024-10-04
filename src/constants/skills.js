@@ -15,6 +15,10 @@ export const skills = [
         image:
           'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=',
       },
+       {
+        name: 'Angular',
+        image:'https://cdn2.iconfinder.com/data/icons/designer-skills/128/angular-512.png'
+      },
       {
         name: 'HTML',
         image: 'https://www.w3.org/html/logo/badge/html5-badge-h-solo.png',
@@ -39,6 +43,7 @@ export const skills = [
         name: 'SyncFusion',
         image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--GmGpxlwT--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/771/21df7034-5069-4e05-9f54-2c881bb9ebb7.png',
       },
+      
       {
         name:'thymeLeaf',
         image:'https://raw.githubusercontent.com/gilbarbara/logos/52addcaa18dfecb4df77f3ee0753dca6b98187ad/logos/thymeleaf-icon.svg'
@@ -73,6 +78,14 @@ export const skills = [
         name: 'Python',
         image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
       },
+       {
+        name: 'JavaScript',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png',
+      },
+       {
+        name: 'TypeScript',
+        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK8AAACUCAMAAADS8YkpAAAAYFBMVEUxeMb///8tdsXi6vXa4/IGbMKsxOQ6fMclc8R1ntUAaMHR3u/A0eqvxOUdcMNnltL4+v1bjs6jveLt8vlBgMlJhcuzyObH1+2AptiXtt9Sis2MrNqRsd1tmtN5ota4zeis6kZCAAAEZElEQVR4nO2b25KjIBBACXjpGAcVNd6i+f+/XM3M7kwFvCAwulV93nYnWiedRpoGSUbJ/wPNjjZAEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARxBx0Bzv0JzjlM/7Zw5psaMXdPAFqUWTI8hAjuQSAeXZ9kZUFg/IOZbmiE8pYcyrq5e/nljdyLRZeEnO9XplR4BjS+fMeIPCqWvrv+Jc29e89hty/Ec3fewv3dF6B9zrp+S2d7hQ19P/y3u2XbbpecwheIkHL2xL6csK3XncCXQr/9uhP4Qr0+zk7kC4mG7vG+QHV0D/elUGldd7Qv77TCe7QvLW561x3sC53yr2leNUk51kRhkdXBjX1PJkf5Bl++yvDGNYk4fNa9MNbB0DdxbuhLaDJcZRJpXo0Vn7oOny9d0kJhm9f0rW4cpWn28Mx8x7soiKSZNeCqz30K8UHWZZmqMJ/q+IwZ+SrxZd+FGtu/S7rplc98mEJU5/2xvp7kW8mF/De8LS2/vKvny+W6rJ4L7wsb6879vhTkyaK1/IOvoOerqB12L3j2YeyrWIi6xDgfmMGafQcK34UfmCtWbWJxwNlG83mmWLflw29mhKavqgZJh+j3UkLz+asuz4LQsFfmype2St8L695LnpP40rnGQzX4v/Ig1vMl0Mz4XlKv57+QFXrPszEhFjo7rGvBdZA140u4mPcdjUXmOC10fWm43OjL4zJymRa6vmNJu+g7UiXEnbG2L/Fnh9wPY2d5rDneJqi8KHonf5aOJmn9+I5VWrAqfEk730lO7IgvoVGzoSlVlS5yYkd8R3i9ocHOEgeV5j5fAuWGblGa2U/inb6E+sN6iNPBeoT3+k6bLmLVOLfd3tk13r6gfrtq7JFD+yXvxhBeV4yDyLmvzk9IIWqfixWF5f6EUXxfwJgWclvtH7HdWsLcd9r6LobZGOd2A2zD99Wgnp1BxAl9p4cFDdQxrkKbCWE43n4a816Zxnnr2Hf37YEoJ+n+nPElU+Gm2vxc7mib+xqEg4aKlBA2qx67vgQU27XPE/vSQrEjY3NK1u3vrH0ZLg85174L4w2ua8L+80z5EHnxykpdsUvterwtCEW3C7suGdNSsUNnc0LWjO+0Pf9Rzvd6+UPSvSTHzW8v3wsT/kxzgZdyDXHkfBx9HX9ImxKktKAAraIv4bze2eA7Gld1FvrfHerpyEOi7Ps4ryeXx9uPH/p275KCRxO87JtKWU9aPlGwN75fUU7znDGPsTyf61DdnK+HtsZ3G5YPbJjFdx2rk7F73/TY8yXavlZrdfe+jfWNDKfjTdjfd3EZX+FgT9mdr+egW619nkBsPU3LBHFy7kRzf570H1teZMhF6+h8geb6bTqDOVSzk++L1KtN33Wah8fSm0KrS8qIJ6LymGydpuz27IpoOROMphD5ra0tF4HPw+zaNeL+rG636VtW8TMQ3bVdeyeLlqQzSuytb7pJl/09Zjt+xWL6lq//WL2ad38A0GBBcmeGhA8AAAAASUVORK5CYII=',
+      },
       {
         name: 'MySQL',
         image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
@@ -90,6 +103,13 @@ export const skills = [
         name: 'MongoDB',
         image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg',
       },
+       {
+        name: 'Cron Jobs',
+        image: 'data:image/png;base64,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'},
+       {
+        name: 'Agenda',
+        image: 'https://banner2.cleanpng.com/20190910/ryk/transparent-technology-logo-5d777e0ad58845.7893922215681121388746.jpg' },
+      
       {
         name: 'Firebase',
         image: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg',
