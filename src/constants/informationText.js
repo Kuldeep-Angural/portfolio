@@ -16,7 +16,11 @@ export const socialMediaHandle = [
 
 
 export const menu = [
-  { name: 'resume', link: 'https://drive.google.com/file/d/1gztQ097DXVDSo_vzwjEVXgCB28ra65pU/view?usp=sharing' },
+  { name: 'resume', links:'https://docs.google.com/document/d/1yID41mdr4FdbQ9OJA3w3D22uQtTugJ0ZrNmUOB6MBGs/edi' },
+
+
+
+
   { name: 'github', link: 'https://github.com/KuldeepKumarAngural' },
   { name: 'Linkedin', link: 'https://www.linkedin.com/in/kuldeep-kumar-485a13252/' },
 ];
