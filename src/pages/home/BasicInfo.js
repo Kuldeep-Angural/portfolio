@@ -23,7 +23,7 @@ const BasicInfo = () => {
   const SocialMediaAvatar = ({ name, link, image }) => {
     return (
       <Link
-        sx={{ mt: 6 }}
+        sx={{ mt: 1 }}
         key={name}
         title={name}
         href={link}
