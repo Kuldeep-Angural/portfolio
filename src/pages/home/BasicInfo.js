@@ -1,6 +1,6 @@
 import React from "react";
 import { CardContent, Grid, Typography, Card, CardMedia, Box, Link, Avatar, Divider, Button } from "@mui/material";
-import image from '../../images/Screenshot 2024-07-20 025912.png'
+import image from '../../images/pic-1.png'
 import TypographyWithIcon from "../../component/output/TypographyWithIcon";
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
