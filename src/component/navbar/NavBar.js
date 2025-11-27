@@ -26,7 +26,6 @@ const NavBar = ({ chacked, onChange }) => {
     <Tooltip title={tooltip || icon}>
       <Button
         style={{
-          color: active ? "white" : "inherit",
           padding: "1px 4px",
           margin: "0 6px",
           fontWeight: active ? "bold" : "normal",
