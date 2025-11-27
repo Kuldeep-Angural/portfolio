@@ -1,11 +1,12 @@
-import React from 'react';
-import { ProjectsCard } from './ProjectsCard';
+import { Box } from "@mui/material";
+import { ProjectsCard } from "./ProjectsCard";
 
 function Projects() {
-
-    return (
-        <ProjectsCard />
-    )
+  return (
+    <Box>
+      <ProjectsCard />
+    </Box>
+  );
 }
 
-export default Projects
+export default Projects;

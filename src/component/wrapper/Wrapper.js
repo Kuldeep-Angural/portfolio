@@ -1,21 +1,20 @@
-import React, { useEffect, useState } from "react";
-import NavBar from "../navbar/NavBar";
-import { addDelay, isDarkMode } from "../../util/util";
 import { Box, CircularProgress, createTheme, CssBaseline, Paper, Stack, ThemeProvider } from "@mui/material";
-import BasicInfo from "../../pages/home/BasicInfo";
+import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import { PageNotFound } from "../../pages/notFound/PageNotFound";
-import Qualification from "../../pages/qualification/Qualification";
-import Projects from "../../pages/projects/Projects";
 import Contact from "../../pages/about/About";
-import { Journey } from "../../pages/experience/Journey";
-import Skills from "../../pages/skills/Skills";
 import Blogs from "../../pages/blogs/Blogs";
+import { Journey } from "../../pages/experience/Journey";
+import HomePage from "../../pages/home/HomePage";
+import { PageNotFound } from "../../pages/notFound/PageNotFound";
+import Projects from "../../pages/projects/Projects";
+import Skills from "../../pages/skills/Skills";
+import { addDelay, isDarkMode } from "../../util/util";
+import NavBar from "../navbar/NavBar";
 
 export const Wrapper = (props) => {
 
     const ROUTES = [
-        { name: '/', value: (index) => (<BasicInfo key={index}   />) },
+        { name: '/', value: (index) => (<HomePage key={index}   />) },
         { name: '/Journey', value: (index) => (<Journey key={index}   />) },
         { name: '/projects', value: (index) => <Projects key={index}   /> },
         { name: '/skills', value: (index) => <Skills key={index}   /> },
@@ -54,7 +53,9 @@ export const Wrapper = (props) => {
                     <CssBaseline />
                     <Paper>
                     </Paper>
-                    <NavBar chacked={darkMode} onChange={() => setDarkMode(!darkMode)} />
+                    <Box sx={{ position: 'sticky', top: 0, zIndex: 1000 }}>
+                        <NavBar chacked={darkMode} onChange={() => setDarkMode(!darkMode)} />
+                    </Box>
                     <Box mt={4}>
                         <Routes>
                             {ROUTES.map((route, index) => (

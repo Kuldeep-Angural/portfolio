@@ -1,9 +1,8 @@
 
-import { Box, Chip, Grid, Typography } from '@mui/material';
-import * as React from 'react';
 import WorkIcon from '@mui/icons-material/Work';
-import { experience } from '../../constants/Experience';
+import { Box, Chip, Grid, Typography } from '@mui/material';
 import { educations } from '../../constants/Educations';
+import { experience } from '../../constants/Experience';
 
 const timelineStyles = {
   width: '85%',
@@ -107,7 +106,7 @@ const timeLine = (pro , icon) => {
 
 export const CustomTimeline = () => {
   return (
-    <Box>
+    <Box mt={10}>
       <Typography align='center' fontSize={'30px'}>Experience -INSONIX</Typography>
       <Box>
         <ol style={timelineStyles}>
