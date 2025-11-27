@@ -27,8 +27,6 @@ const NavBar = ({ chacked, onChange }) => {
       <Button
         style={{
           color: active ? "white" : "inherit",
-          backgroundColor: active ? "#357ae9ff" : "transparent",
-          borderRadius: "20px",
           padding: "1px 4px",
           margin: "0 6px",
           fontWeight: active ? "bold" : "normal",
