@@ -5,7 +5,11 @@ import {
     Paper,
     ThemeProvider
 } from "@mui/material";
+<<<<<<< HEAD
 import { useEffect, useState } from "react";
+=======
+import { useState } from "react";
+>>>>>>> 44ef74ca2f6e8c6319cd2aeac12c6d8b3fa32073
 import { Route, Routes } from "react-router-dom";
 import Contact from "../../pages/about/About";
 import Blogs from "../../pages/blogs/Blogs";
