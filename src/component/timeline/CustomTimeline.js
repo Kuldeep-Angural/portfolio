@@ -110,9 +110,9 @@ export const CustomTimeline = () => {
       <Typography align='center' fontSize={'30px'}>Experience -INSONIX</Typography>
       <Box>
         <ol style={timelineStyles}>
-          {experience.map((item) => {
-            return item.Projects.map((pro) => {
-              return timeLine(pro , <WorkIcon/>)
+          {experience.map((item, itemIndex) => {
+            return item.Projects.map((pro, proIndex) => {
+              return <li key={`exp-${itemIndex}-${proIndex}`}>{timeLine(pro , <WorkIcon/>)}</li>
             })
           })}
         </ol>
@@ -123,9 +123,9 @@ export const CustomTimeline = () => {
       <Box>
         <ol style={timelineStyles}>
 
-          {educations.map((item)=>{
-            return item.programs.map((program)=>{
-              return timeLine(program )
+          {educations.map((item, itemIndex)=>{
+            return item.programs.map((program, progIndex)=>{
+              return <li key={`edu-${itemIndex}-${progIndex}`}>{timeLine(program)}</li>
             })
           })}
         </ol>

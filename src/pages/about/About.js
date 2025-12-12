@@ -179,9 +179,6 @@ function Contact() {
                 }}
               >
                 <Button
-                  id="standard-basic"
-                  multiline
-                  label="message"
                   onClick={onSubmit}
                   variant="outlined"
                 >

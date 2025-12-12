@@ -29,7 +29,6 @@ export const Wrapper = (props) => {
   ];
 
   const [darkMode, setDarkMode] = useState(isDarkMode());
-  const [loading, setLoading] = useState(true);
 
   const theme = createTheme({
     palette: {
@@ -70,7 +69,7 @@ export const Wrapper = (props) => {
         <Box mt={4} role="main">
           <Routes>
             {ROUTES.map((route, index) => (
-              <Route path={route.name} element={route.value(index)} />
+              <Route key={route.name} path={route.name} element={route.value(index)} />
             ))}
             <Route path="*" element={<PageNotFound />} />
           </Routes>
