@@ -4,4 +4,4 @@ Allow: /
 Disallow: /private/
 
 # Sitemap location
-Sitemap: https://kuldeep-portfolio.com/sitemap.xml
+Sitemap: https://kuldeepinfo.vercel.app/sitemap.xml

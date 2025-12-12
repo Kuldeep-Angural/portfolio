@@ -13,7 +13,7 @@ const HomePage = () => {
         <title>Kuldeep Kumar - Full Stack Developer Portfolio | Projects & Experience</title>
         <meta name="description" content="Kuldeep Kumar's portfolio showcasing full stack development projects, experience with MERN stack, React, Node.js, and modern web technologies." />
         <meta name="keywords" content="Kuldeep Kumar, developer portfolio, MERN stack, React developer, Node.js, JavaScript, web development" />
-        <link rel="canonical" href="https://kuldeep-portfolio.com" />
+        <link rel="canonical" href="https://kuldeepinfo.vercel.app" />
       </Helmet>
       <Box sx={{ width: "100%" }}>
         {/* Home Section */}

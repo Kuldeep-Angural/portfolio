@@ -7,8 +7,8 @@ export const getPersonSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Kuldeep Kumar",
-  url: "https://kuldeep-portfolio.com",
-  image: "https://kuldeep-portfolio.com/avtar-image.jpg",
+  url: "https://kuldeepinfo.vercel.app",
+  image: "https://kuldeepinfo.vercel.app/avtar-image.jpg",
   sameAs: [
     "https://www.linkedin.com/in/kuldeep-kumar-485a13252/",
     "https://github.com/Kuldeep-Angural",
@@ -24,8 +24,8 @@ export const getOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Kuldeep Kumar Portfolio",
-  url: "https://kuldeep-portfolio.com",
-  logo: "https://kuldeep-portfolio.com/avtar-image.jpg",
+  url: "https://kuldeepinfo.vercel.app",
+  logo: "https://kuldeepinfo.vercel.app/avtar-image.jpg",
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "General Support",
