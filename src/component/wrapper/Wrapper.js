@@ -5,7 +5,7 @@ import {
     Paper,
     ThemeProvider
 } from "@mui/material";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Contact from "../../pages/about/About";
 import Blogs from "../../pages/blogs/Blogs";
@@ -15,6 +15,7 @@ import { PageNotFound } from "../../pages/notFound/PageNotFound";
 import Projects from "../../pages/projects/Projects";
 import Skills from "../../pages/skills/Skills";
 import { isDarkMode } from "../../util/util";
+import { getPersonSchema, getOrganizationSchema } from "../../util/seoUtils";
 import NavBar from "../navbar/NavBar";
 
 export const Wrapper = (props) => {
@@ -38,6 +39,26 @@ export const Wrapper = (props) => {
     },
   });
 
+  // Add structured data to page
+  useEffect(() => {
+    // Add Person Schema
+    const personScript = document.createElement("script");
+    personScript.type = "application/ld+json";
+    personScript.innerHTML = JSON.stringify(getPersonSchema());
+    document.head.appendChild(personScript);
+
+    // Add Organization Schema
+    const orgScript = document.createElement("script");
+    orgScript.type = "application/ld+json";
+    orgScript.innerHTML = JSON.stringify(getOrganizationSchema());
+    document.head.appendChild(orgScript);
+
+    return () => {
+      document.head.removeChild(personScript);
+      document.head.removeChild(orgScript);
+    };
+  }, []);
+
   return (
     <>
       <ThemeProvider theme={theme}>
@@ -46,7 +67,7 @@ export const Wrapper = (props) => {
         <Box sx={{ position: "sticky", top: 0, zIndex: 1000 }}>
           <NavBar chacked={darkMode} onChange={() => setDarkMode(!darkMode)} />
         </Box>
-        <Box mt={4}>
+        <Box mt={4} role="main">
           <Routes>
             {ROUTES.map((route, index) => (
               <Route path={route.name} element={route.value(index)} />

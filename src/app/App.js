@@ -3,6 +3,7 @@ import {
   ThemeProvider
 } from "@mui/material";
 import { useState } from "react";
+import { HelmetProvider } from "react-helmet-async";
 import { Wrapper } from "../component/wrapper/Wrapper";
 import { isDarkMode } from "../util/util";
 
@@ -17,9 +18,11 @@ function App() {
   });
 
   return (
-    <ThemeProvider theme={theme}>
-      <Wrapper />
-    </ThemeProvider>
+    <HelmetProvider>
+      <ThemeProvider theme={theme}>
+        <Wrapper />
+      </ThemeProvider>
+    </HelmetProvider>
   );
 }
 
