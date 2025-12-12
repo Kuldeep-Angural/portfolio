@@ -3,20 +3,20 @@ import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import {
-    Avatar,
-    Box,
-    CardContent,
-    CardMedia,
-    Grid,
-    Link,
-    Typography
+  Avatar,
+  Box,
+  CardContent,
+  CardMedia,
+  Grid,
+  Link,
+  Typography
 } from "@mui/material";
 import { Typewriter } from "react-simple-typewriter";
 import TypographyWithIcon from "../../component/output/TypographyWithIcon";
 import {
-    bio,
-    professionWords,
-    socialMediaHandle,
+  bio,
+  professionWords,
+  socialMediaHandle,
 } from "../../constants/informationText";
 import image from "../../images/pic-1.png";
 const BasicInfo = () => {
@@ -137,6 +137,7 @@ const BasicInfo = () => {
                 fontFamily: "monospace",
                 fontWeight: 900,
                 letterSpacing: ".3rem",
+                haight: '40px'
               }}
             >
               <Typewriter

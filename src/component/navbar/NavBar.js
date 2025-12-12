@@ -13,7 +13,7 @@ const NavBar = ({ chacked, onChange }) => {
   const naviGate = useNavigate();
 
   const scrollToSection = (sectionId, path) => {
-    setActiveSection(sectionId); // highlight active
+    setActiveSection(sectionId);
     const element = document.getElementById(sectionId);
 
     if (element) {
@@ -26,9 +26,6 @@ const NavBar = ({ chacked, onChange }) => {
     <Tooltip title={tooltip || icon}>
       <Button
         style={{
-          color: active ? "white" : "inherit",
-          backgroundColor: active ? "#357ae9ff" : "transparent",
-          borderRadius: "20px",
           padding: "1px 4px",
           margin: "0 6px",
           fontWeight: active ? "bold" : "normal",
@@ -49,12 +46,15 @@ const NavBar = ({ chacked, onChange }) => {
       <Grid
         container
         sx={{
-          backgroundColor: "#807b7b80",
+          backgroundColor: chacked ? "#1e1e1e" : "#ffffff", // NON-TRANSPARENT SOLID NAVBAR
           color: chacked ? "#ffffff" : "#141414ff",
           transition: "background-color 0.3s ease, color 0.3s ease",
           mb: 5,
-          boxShadow: "0 2px 4px rgba(110,106,106,0.1)",
+          boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
           padding: "1px 0",
+          position: "sticky", // keeps navbar visible
+          top: 0,
+          zIndex: 1000,
         }}
       >
         <Grid item xs={12}>
